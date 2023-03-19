@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <form>
+    <h1>Student admission from</h1>
+    <hr>
+    <!-- valodation is use in man cases -->
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your name" required minlength="4">
+    <br>
+    <br>
+
+    <label>Email</label>
+    <input type="email" placeholder="enter email id">
+    <br>
+    <br>
+
+    <label>Date of birth</label>
+    <input type="date" placeholder="enter d.o.b">
+    <br>
+    <br>
+
+    <label>Address</label> 
+    <br>  
+    <textarea id="" cols="30" rows="10"></textarea>
+    <br><br>
+    <label>Gendre:</label>
+    <input type="radio"name="gender">Male
+    <input type="radio"name="gender">Female
+    <br><br>
+    <labe>Contact</label>
+    <!-- <br><br> -->
+    <input type="number">
+    <br><br>
+    <label for="img">Uploade</label>
+    <!-- <br><br> -->
+    <!-- hidden is used for hide button -->
+    <!-- <input  hidden id="img" type="file"> -->
+    <input id="img" type="file">
+    <br><br>
+    <label>select your city</label>
+    <select>
+        <option>luckow</option>
+        <option>varanasi</option>
+        <option>agra</option>
+
+    </select>
+    <br><br>
+    <label>Select course</label>
+    <input type="text" list="course">
+    <!-- datalist tag is used for list form of data -->
+    <datalist id="course">
+        <option>mca</option>
+        <option>mba</option>
+
+        <option>msc</option>
+
+    </datalist>
+    <br><br>
+    <input type="checkbox"> accept terms and condition
+    <details>
+        <summary>terms and condition</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nobis?</p>
+    </details>
+
+
+    <button>Submit</button>
+    </form>
+    
+</body>
+</html>
