@@ -24,6 +24,7 @@ console.log(newArr)
 
 //filtering in array
 
+
  let res=nums.filter((n) => { return n%2==0})
  console.log(res)
 
@@ -58,8 +59,8 @@ console.log(newArr)
 
 
 
-  
- 
+
+
 
 
 

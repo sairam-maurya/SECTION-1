@@ -12,12 +12,17 @@ let movies=['rrr','shyam','sundar','uusdu']
 // console.log(movies.length)
 
 //slicing
-// console.log(movies.slice(2,5))
+console.log('---------------')
+console.log(movies.slice(2,5))
+console.log('---------------')
+
 
 //adding element
 //[...]   spread operator
-// console.log([...movies,'barfi'] )
+console.log([...movies,'barfi'] )
 // console.log(['batman',...movies,'barfi'] )
+console.log('---------------')
+
 
 
 //stoing of value

@@ -6,16 +6,16 @@ if(age>=18)
     myvar='nice'
     let x ='block scoped'
     const pi=3.14
-    pi=67576
+    //    pi=67576
+    console.log(x)
 
+    console.log(pi)
 }
 else{
-    console.log('you are not eligible')
 }
+console.log('you are not eligible')
 
 console.log(myvar)
-console.log(x)
-console.log(pi)
 
 
 
